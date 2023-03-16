@@ -234,24 +234,3 @@ body {
   opacity: 0;
   transition: transform 150ms ease-out, opacity 150ms ease-out;
 }
-header{
-  position: relative;
-  top: -30%;
-  scale: 1.9;
-  left: 10%;
-  
-  font-weight: bold;
-    color: #ddd;
-    text-align: center;
-    margin: 1pc;
-    filter: drop-shadow(5px 5px 7px #00003060);
-}
-ul
-{
-    list-style: none;
-}
-a
-{
-    text-decoration: none;
-    color: #fff;
-}
