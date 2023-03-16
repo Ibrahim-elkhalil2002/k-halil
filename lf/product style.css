@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century gothic;
+    list-style: none;
+
+}
+hr
+{
+    background-color: #000030;
+    width: 20pc;
+    height: 5px;
+    border: none;
+    display: inline-flex;
+    border-radius: 200pc;
+    filter: drop-shadow(5px 5px 7px #00003060);
+    transition: .7s;
+}
+hr:hover
+{
+    width: 40pc;
+}
+.gla ssy
+{
+    background-color: #ffffffee;
+    backdrop-filter: brightness(2) blur(10px);
+    filter: drop-shadow(10px 10px 10px #001aff28);
+    border-radius: 30px;
+    filter: drop-shadow(10px 10px 10px #00074134);
+}
+body  
+{
+    position: relative;
+    background-image: linear-gradient(320deg, #000030 0%, #ff7c7c 100%);
+    background-image: linear-gradient(320deg, #1f4037 0%, #99f2c8 100%);
+    height: 100%;
+    width: 100%;
+}
+nav
+{
+    margin-top: -6pc;
+}
+nav ul
+{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav ul li
+{
+    margin-right: 40px;
+    filter: drop-shadow(5px 5px 7px #000c7742);
+    font-weight: bold;
+}
+a
+{
+    color: #ddd;
+    text-decoration: none;
+}
+#logo
+{
+    margin: 1.5pc;
+    scale: .9;
+    filter: drop-shadow(7px 5px 10px #000c7730);
+    
+    /*filter: drop-shadow(7px 5px 7px #000c7745);*/
+}
+main
+{
+    background-color: #ffffff79;
+    border: 2px solid #ffffff28;
+    color: #000030;
+    margin: 7pc; 
+    border-radius: 50px;
+    margin-bottom: 2pc;
+    margin-top: 4pc;
+    display: flex;
+    filter: drop-shadow(10px 10px 10px #00074628);
+}
+main h1
+{
+    text-decoration: underline;
+    font-size: 2em;
+    text-shadow: 5px 5px 10px #00003062;
+    font-weight: bold;
+}
+img
+{
+    width: 50%;
+    height: 40%;
+    /*
+    padding: 5px;
+    background-color: #fffefeee;*/
+    border-radius: 50px;
+    text-align: left;
+    align-items: center;
+    filter: drop-shadow(10px 10px 10px #00074628);
+    transition: .7s;
+    margin: 40px;
+}
+section
+{
+    text-align: center;
+    margin: 13pc 0pc 14pc 6pc;
+    scale: 1.5;
+}
+h2
+{
+    text-shadow: 5px 5px 7px #00003042;
+}
+p
+{
+    font-weight: bold;
+    color: #007c7c;
+    text-shadow: 5px 5px 7px #007c7c42;
+}
+button
+{
+    background: linear-gradient(90deg, #ff4444, #e60b0b);
+    filter: drop-shadow(5px 5px 10px #ff000060);
+    border: none;
+    margin: 2px;
+    margin-top: 10px;
+    padding: 11px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .7s;
+}
+button:hover
+{
+    background: linear-gradient(90deg, #44ffff, #0be6e6);
+    filter: drop-shadow(5px 5px 20px #00ffff);
+    color: #000030;
+}
+footer
+{
+    font-weight: bold;
+    color: #ddd;
+    text-align: center;
+    margin: 1pc;
+    filter: drop-shadow(5px 5px 7px #00003060);
+}
