@@ -33,8 +33,9 @@ hr:hover
 body  
 {
     position: relative;
-    background-image: linear-gradient(320deg, #000030 0%, #ff7c7c 100%);
     background-image: linear-gradient(320deg, #1f4037 0%, #99f2c8 100%);
+    background-image: linear-gradient(320deg, #80a4cb 0%, #cce0f3 100%);
+    
     height: 100%;
     width: 100%;
 }
@@ -56,7 +57,7 @@ nav ul li
 }
 a
 {
-    color: #ddd;
+    color: #000030;
     text-decoration: none;
 }
 #logo
